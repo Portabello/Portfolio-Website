@@ -1,0 +1,101 @@
+h1{
+  text-align: left;
+  font-family: "custom1", Helvetica;
+  font-weight: 700;
+  font-size: 1.1em;
+  letter-spacing: 3px;
+}
+h2{
+    text-align: center;
+    font-family: "custom1", Helvetica;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+a:link {
+  color:#2e2e2e;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #2e2e2e;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0096ce;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: #0096ce;
+  background-color: transparent;
+  text-decoration: none;
+}
+#contact_linkedin{
+
+}
+#header{
+  width:100%;
+  margin: 20px;
+  font-family: "custom1", Helvetica;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+#header_left{
+  display: inline-block;
+  float:left;
+}
+#tab_menu{
+text-align: right;
+
+}
+.tab_menu_items{
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#face_image{
+    text-align:center;
+}
+#main_page_text{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    padding: 10px;
+
+    font-family: "custom2";
+    font-size: 1rem;
+    color: #2e2e2e;
+    letter-spacing: .01rem;
+    line-height: 1.75rem;
+}
+#aboutme_head{
+  text-align: left;
+}
+#aboutme{
+  float: left;
+  width: 75%;
+  margin-right: 30px;
+    /*
+    margin-top: 50px;
+    margin-right: 20%;
+    margin-left: 20%;
+*/
+}
+#contact_head{
+  text-align: left;
+}
+#contact{
+
+}
+@font-face {
+  font-family: "custom1";
+  src: url("assets/fonts/Montserrat-Medium.otf");
+}
+@font-face {
+  font-family: "custom2";
+  src: url("assets/fonts/Merriweather-Light.otf");
+}
