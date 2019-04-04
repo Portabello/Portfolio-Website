@@ -61,7 +61,7 @@ text-align: right;
     text-align:center;
 }
 #main_page_text{
-    width: 80%;
+    width: 45em;
     height: 500px;
     margin: auto;
     padding: 10px;
@@ -98,4 +98,8 @@ text-align: right;
 @font-face {
   font-family: "custom2";
   src: url("assets/fonts/Merriweather-Light.otf");
+}
+@font-face {
+  font-family: "custom3";
+  src: url("assets/fonts/OpenSans-Semibold.ttf");
 }
