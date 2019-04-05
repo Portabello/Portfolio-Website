@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Page Title</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <nav id="header">
+      <li id="header_left"><a href="index.html">JASMIT KAKKAR</a></li>
+      <ul id="tab_menu">
+        <li class="tab_menu_items"><a href="projects.html">PROJECTS</a></li>
+        <li class="tab_menu_items"><a href="resume.html">RESUME</a></li>
+        <li class="tab_menu_items"><a href="files.html">FILES</a></li>
+        <li class="tab_menu_items"><a href="contact.html">CONTACT ME</a></li>
+      </ul>
+  </nav>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <h2><center>IP Monitor</center></h2>
+  <center><img src="assets/img/ipmonitor.png" alt="app1" width="400" height="508" HSPACE="10" VSPACE="10"></center>
+  <p id="project_text">This project was something I worked on during my spare time while employed at Auto-Chlor Systems. I theorized and developed it from the ground
+    up.This program monitored the network status of user inputted IP addresses WAN connection, routers, and VPN tunnel. It logged latency and generated analysis and
+    statistics for each location. I have plans to display a real-time graph of the latency within the GUI in a drop down menu that will also display additional relevant
+    information such as average, highest, and lowest latency. Once deployed this proved to be an invaluable networking tool that our entire department greatly benefited
+    from. This project was completed using Python and the TKinter library.</p>
+
+  <h2><center>Fortinet DHCP Automation</center></h2>
+  <center><img src="assets/img/fortinet.png" alt="app1" width="400" height="250" HSPACE="10" VSPACE="10"></center>
+  <p id="project_text">This project was something I worked on while employed at Auto-Chlor Systems. I theorized and developed it from the ground up. this program Automates
+    the process of making MAC address based IP reservations in a Fortinet 60E Router and Fortimanager using Python, Paramiko (a python module used for ssh connections),
+    and the Fortinet CLI. Making, modifying, and removing DHCP reservations was a very comman task we performed in our work. This required loading a clunky web application
+    supplied by Fortinet and performing various boilerplate tasks through the Fortinet GUI. This cmd based approach eliminated and sluggish behaviour due to the bloated
+    Fortinet GUI and eliminated all of the boilerplate tasks, just requiring the bare essential information from the user. Once developed this vastly improved work efficiency.</p>
+
+  <h2><center>Sensor Board</center></h2>
+  <center><img src="assets/img/rsz_sensor.jpg" alt="sensor" width="350" height="250" HSPACE="10" VSPACE="10"><img src="assets/img/data.png" alt="data" width="150" height="250" HSPACE="10" VSPACE="10"></center>
+  <p id="project_text">I used a AT&T IoT Development Sensor Board (AT&T NXT FRDM-K64F Development Board with an Arduino WNC Shield) equipped with 2 LTE antennas using
+    wireless cellular conntection powered by the AT&T network as well as temperature and humidity sensors and a accelerometer, to build a streaming application. The
+    app was programmed in AT&T Flow and the data from the board was pushed to AT&T M2X. From there I used PubNub to publish the data and then Microsoft Bi to subscribe
+    to the data channel and live stream the data from the board to my computer as well as my phone. The picture aboce is how the data looks on my Samsung phone. </p>
+
+
+  <h2><center>Android Development</center></h2>
+  <center><img src="assets/img/app.png" alt="app1" width="350" height="250" HSPACE="10" VSPACE="10"></center>
+  <p id="project_text">I developed an android app that is both compatible with AndroidOS and iOS capable devices. It was created in Unity3D and utilizes C# scripts.
+    The objective of this game is to move the black player ball through the level utilizing 2 directions, right and left. Picking up the pink diamonds results in a
+    boost to player score. The map the player goes through is randomly generated and is endless with asset recycling to minimize CPU usage. Scores are saved as well
+    as the users highest score. This game was released to the google play store.</p>
+
+
+  <h2><center>Hough Transform</center></h2>
+  <center><img src="assets/img/hough.png" alt="hough" width="250" height="450" HSPACE="10" VSPACE="10"></center>
+  <p id="project_text">This program performs a Hough Transform on a user inputted image. The Hough Transform is a technique which is used to isolate features of a
+    particular shape within an image by first performing edge detection and characterizing what is found. Eventually the algorithm will detect the most prominent line
+    within the image and plot the data in Hough parameter space. This was coded in Matlab.</p>
+
+
+  <h2><center>Bicycle Simulator</center></h2>
+  <center><img src="assets/img/bike.png" alt="bike1" width="350" height="250" HSPACE="10" VSPACE="10"></center>
+  <p id="project_text">Using OpenGL and graphics shaders I created a bicycle that can be controlled with user input. When moving the bicycle wheels as well as pedals
+    rotate according to the speed of the bike. The are the bicylce is in has randomly generated trees that when collided with the bike will result in a game over screen.
+    This was programmed in C++ and various OpenGL API.</p>
+
+
+  <h2><center>Image Histogram</center></h2>
+  <center><img src="assets/img/histogram.png" alt="hough" width="350" height="250" HSPACE="10" VSPACE="10"></center>
+  <p id="project_text">This program takes in a user provided image and will compute the histogram for that image. The histogram of an image is a graphical representation
+    of the tonal distribution in a digital image. It plots the number of pixels for each tonal value and displays it in a graph format. This was programmed in Matlab.</p>
+
+</body>
+
+
+</html>
